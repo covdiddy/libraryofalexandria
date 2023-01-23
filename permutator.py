@@ -1,8 +1,8 @@
 # Ask the user to enter a list of names separated by a space
-names = input("Inserisci una lista di nomi separati da uno spazio: ").split(" ")
+names = input("Enter a list of names separated by a space: ").split(" ")
 
 # Generate a list of ASCII symbols
-symbols = [chr(i) for i in range(33, 65)]
+symbols = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', '<', '=', '>', '?', '@', ':', '£', ';', '_', '#']
 
 # For each name of the list
 for name in names:
